@@ -11,7 +11,7 @@ import chainer.links as L
 
 import sys
 sys.path.append('../misc')
-from custom_opt import CustomConv2D
+from misc.custom_opt import CustomConv2D
 
 class Generator(chainer.Chain):
     def __init__(self, img_size=(64,64), n_hidden=100, gf_dim=128, ef_dim=128):
